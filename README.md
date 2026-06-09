@@ -10,6 +10,11 @@ IIS Express + SQL Server.
 > 📘 Esta es la guía de inicio rápido. Para el **manual completo de desarrollo**
 > (crear páginas, vistas, EF, stored procedures, JWT, módulos, checklist), consulta
 > **[GUIA-DESARROLLO.md](GUIA-DESARROLLO.md)**.
+>
+> 🤖 **¿Usas Claude Code?** Abre esta carpeta con Claude y pídele *"arranca un proyecto
+> nuevo desde cero con esta plantilla"*. El archivo **[CLAUDE.md](CLAUDE.md)** es el
+> playbook que Claude sigue para generar el proyecto, configurar la base de datos y
+> construir pantallas que funcionan.
 
 ---
 
@@ -20,6 +25,8 @@ IIS Express + SQL Server.
 | **`New-MvcProject.ps1`** | Crea un **proyecto/portal nuevo** completo y autónomo (su propia `.sln`, `BaseController`, `HomeController`, vistas, `Web.config`, App_Start, bundles). |
 | **`Add-MvcModule.ps1`** | Agrega un **módulo** (proyecto MVC independiente) a una solución existente. Referencia al proyecto principal y **hereda su `BaseController`** (reutiliza sesión/seguridad). |
 | **`GUIA-DESARROLLO.md`** | Manual de desarrollo paso a paso para trabajar sobre cualquier proyecto generado. |
+| **`CLAUDE.md`** | Playbook para Claude Code: de cero a una web funcionando (generar proyecto → configurar BD → construir pantallas). |
+| **`wiki/`** | Wiki paso a paso para agentes LLM (varios `.md`): empezar de cero, arquitectura, BD, seguridad, agregar pantalla, módulos, git, troubleshooting. Ver [`wiki/README.md`](wiki/README.md). |
 | **`Guia.pdf`** | Versión PDF de la guía. |
 
 ---
@@ -163,3 +170,4 @@ Una vez creado el proyecto, sigue el manual para empezar a construir pantallas
 de extremo a extremo (BD → EF → controller → vista → JS):
 
 ➡️ **[GUIA-DESARROLLO.md](GUIA-DESARROLLO.md)**
+"# plantilla-mvc" 
