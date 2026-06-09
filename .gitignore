@@ -1,0 +1,17 @@
+# --- Secretos (NUNCA versionar) ---
+*.secret.config
+appSettings.secret.config
+connectionStrings.secret.config
+
+# --- Artefactos de build de proyectos generados para probar la plantilla ---
+bin/
+obj/
+packages/
+.vs/
+*.user
+*.suo
+
+# Si pruebas la plantilla generando un proyecto DENTRO de este repo, ignóralo.
+# Mejor genéralo FUERA (-OutputPath ..\MiApp). Descomenta y ajusta si lo dejas aquí:
+# /MiApp/
+# /Inventario/
