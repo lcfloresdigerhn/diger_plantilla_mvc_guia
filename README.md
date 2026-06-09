@@ -200,3 +200,4 @@ de extremo a extremo (BD → EF → controller → vista → JS):
 
 ➡️ **[GUIA-DESARROLLO.md](GUIA-DESARROLLO.md)**
 "# plantilla-mvc" 
+"# plantilla-mvc" 
