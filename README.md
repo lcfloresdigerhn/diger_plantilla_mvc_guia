@@ -18,6 +18,35 @@ IIS Express + SQL Server.
 
 ---
 
+## ⚠️ Esto es una PLANTILLA — tu proyecto va en OTRO repo, no en este
+
+Este repositorio es **solo la plantilla + la guía**. **No construyas tu proyecto aquí.**
+
+**Para empezar tu proyecto:**
+
+1. **Forkea o clona** este repo — es tu **base/guía** (scripts + documentación).
+2. Ten **otro repo** (el de tu proyecto), o crea uno nuevo, para tu código.
+3. Genera el proyecto con `New-MvcProject.ps1` **fuera** de esta carpeta
+   (`-OutputPath ..\MiApp`) y versiónalo en **tu** repo.
+
+```powershell
+# 1) Clona/forkea esta plantilla (la guía)
+git clone <URL-de-esta-plantilla> plantilla
+
+# 2) Genera tu proyecto FUERA de la plantilla
+cd plantilla
+.\New-MvcProject.ps1 -Name MiApp -OutputPath ..\MiApp
+
+# 3) Versiona MiApp en TU repo (no en este)
+cd ..\MiApp
+git init && git remote add origin <URL-de-TU-repo>
+```
+
+> **Resumen:** clona/forkea **esta plantilla** para tener la guía, pero tu código vive en
+> **otro repo (el tuyo)** — **nunca en este**.
+
+---
+
 ## ¿Qué hay en este repositorio?
 
 | Archivo | Para qué sirve |
